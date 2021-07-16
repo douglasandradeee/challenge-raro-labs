@@ -1,0 +1,22 @@
+{
+  "name": "challenge-raro-labs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasandradeee/challenge-raro-labs.git"
+  },
+  "author": "Douglas Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasandradeee/challenge-raro-labs/issues"
+  },
+  "homepage": "https://github.com/douglasandradeee/challenge-raro-labs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
