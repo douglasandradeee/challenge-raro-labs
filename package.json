@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/douglasandradeee/challenge-raro-labs#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "@brazilian-utils/is-valid-cep": "^0.1.2",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "got": "^9.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
