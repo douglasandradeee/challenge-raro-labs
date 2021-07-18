@@ -1,8 +1,10 @@
 const express = require('express')
 const app = express()
 const api = require('./api/api')
+const port = 8000
 const validationCep = require('./validation/cep')
 
+//ver no video pq o cara usou isso
 app.use(express.json())
 
 app.get("/:cep", async (req ,res) => {
@@ -19,6 +21,6 @@ app.get("/:cep", async (req ,res) => {
         return res.send(error)
     }
 })
-app.listen("8000")
+app.listen(port)
 
 
