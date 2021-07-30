@@ -2,7 +2,7 @@
   "name": "challenge-raro-labs",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "start": "nodemon src/app.js",
     "start:prod":"node src/app.js",
@@ -21,7 +21,6 @@
   "dependencies": {
     "@brazilian-utils/is-valid-cep": "^0.1.2",
     "axios": "^0.21.1",
-    "cors": "^2.8.5",
     "express": "^4.17.1"
   },
   "devDependencies": {
