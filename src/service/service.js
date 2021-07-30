@@ -5,5 +5,4 @@ var validationCep = (cep) => {
         return false
     } 
 }
-
 module.exports = isValidCep
