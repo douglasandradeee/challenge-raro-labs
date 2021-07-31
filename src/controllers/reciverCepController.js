@@ -1,4 +1,5 @@
 const cepService = require('../services/viaCepService')
+const errorsMessages = require('../constants/errosMessages')
 
 module.exports = {
     reciverCep : async (req, res, next) => {
@@ -8,9 +9,9 @@ module.exports = {
             return res.status(200).json(result.data)
         } catch (err) {
             switch (err.message) {
-                case 'Cep inválido':
+                case errorsMessages.errorInvalidCepMessage:
                     return res.status(400).json({message:err.message})
-                case 'Cep inválido: O CEP precisa conter apenas números':
+                case errorsMessages.errorCepOnlyNumber:
                     return res.status(400).json({message:err.message})
                 default:
                     return res.status(500).json({message:err.message})
