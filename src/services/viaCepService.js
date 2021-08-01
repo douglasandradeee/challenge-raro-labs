@@ -2,6 +2,7 @@ const serviceViaCep = require('../repositories/validationCepRepository')
 const isValidCep = require('@brazilian-utils/is-valid-cep')
 const errorsMessages = require('../constants/errosMessages')
 
+// logicSearchCep - Busca e verifica se o cep é valido, e se é um número.
 module.exports = {
     logicSearchCep: async (cep) => {
         try {

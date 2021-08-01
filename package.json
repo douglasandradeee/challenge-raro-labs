@@ -2,7 +2,7 @@
   "name": "challenge-raro-labs",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "./src/bin/www.js",
   "scripts": {
     "start": "nodemon ./src/bin/www.js",
     "start:prod": "node ./src/bin/www.js",
