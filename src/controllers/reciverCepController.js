@@ -1,6 +1,7 @@
 const cepService = require('../services/viaCepService')
 const errorsMessages = require('../constants/errosMessages')
 
+// reciverCep - Recebe o parâmetro vindo da rota, trata erros http de chamadas da api e retorna o endereço.
 module.exports = {
     reciverCep : async (req, res, next) => {
         try {

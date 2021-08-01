@@ -1,9 +1,10 @@
+// Esta camada consiste nas configurações do servidor.
 const express = require('express')
 const app = express()
 var timeout = require('connect-timeout')
 const routes = require('./routes/routes')
 
-app.use(timeout('5s'))
+app.use(timeout('15s'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 app.use(routes)
