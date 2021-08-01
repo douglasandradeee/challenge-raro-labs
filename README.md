@@ -5,5 +5,5 @@
 ## Conexão :
 
 - **Use npm start para inicializar o projeto em modo de desenvolvimento**
-- **Use npm start:prod para inicializar o projeto em modo de produção**
+- **Use npm run start:prod para inicializar o projeto em modo de produção**
 - **O projeto roda na porta 8000**
