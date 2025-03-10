@@ -20,7 +20,7 @@
   "homepage": "https://github.com/douglasandradeee/challenge-raro-labs#readme",
   "dependencies": {
     "@brazilian-utils/is-valid-cep": "^0.1.2",
-    "axios": "^0.21.1",
+    "axios": "^1.8.2",
     "connect-timeout": "^1.9.0",
     "express": "^4.17.1"
   },
